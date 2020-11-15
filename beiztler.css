@@ -1,0 +1,422 @@
+/* 
+*Version 1.0
+*Creado por Antom Beiz 03/10/2020
+*Modificacion 15/11/2020
+*Esta obra está licenciada bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional. 
+*Para ver una copia de esta licencia, visite http://creativecommons.org/licenses/by-nc-sa/4.0/. 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+li {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+p{
+    margin: 15px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+a{
+    color: inherit;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.c_auto{
+    width: auto;
+    height: auto;
+}
+.c_a_100{
+    width: auto;
+    height: 100%;
+}
+.c_100_a{
+    width: 100%;
+    height: auto;
+}
+.c_100_100v{
+    width: 100%;
+    height: 100vh;
+}
+.c_100_95v{
+    width: 100%;
+    height: 95vh;
+}
+.c_100_90v{
+    width: 100%;
+    height: 90vh;
+}
+.c_100_85v{
+    width: 100%;
+    height: 85vh;
+}
+.c_100_80v{
+    width: 100%;
+    height: 80vh;
+}
+.c_100_75v{
+    width: 100%;
+    height: 75vh;
+}
+.c_100_70v{
+    width: 100%;
+    height: 70vh;
+}
+.c_100_65v{
+    width: 100%;
+    height: 65vh;
+}
+.c_100_60v{
+    width: 100%;
+    height: 60vh;
+}
+.c_100_55v{
+    width: 100%;
+    height: 55vh;
+}
+.c_100_50v{
+    width: 100%;
+    height: 50vh;
+}
+.c_100_45v{
+    width: 100%;
+    height: 45vh;
+}
+.c_100_40v{
+    width: 100%;
+    height: 40vh;
+}
+.c_100_35v{
+    width: 100%;
+    height: 35vh;
+}
+.c_100_30v{
+    width: 100%;
+    height: 30vh;
+}
+.c_100_25v{
+    width: 100%;
+    height: 25vh;
+}
+.c_100_20v{
+    width: 100%;
+    height: 20vh;
+}
+.c_100_15v{
+    width: 100%;
+    height: 15vh;
+}
+.c_100_10v{
+    width: 100%;
+    height: 10vh;
+}
+.c_100_5v{
+    width: 100%;
+    height: 5vh;
+}
+.c_100_100{
+    width: 100%;
+    height: 100%;
+}
+.c_100_95{
+    width: 100%;
+    height: 95%;
+}
+.c_100_90{
+    width: 100%;
+    height: 90%;
+}
+.c_100_85{
+    width: 100%;
+    height: 85%;
+}
+.c_100_80{
+    width: 100%;
+    height: 80%;
+}
+.c_100_75{
+    width: 100%;
+    height: 75%;
+}
+.c_100_70{
+    width: 100%;
+    height: 70%;
+}
+.c_100_65{
+    width: 100%;
+    height: 65%;
+}
+.c_100_60{
+    width: 100%;
+    height: 60%;
+}
+.c_100_55{
+    width: 100%;
+    height: 55%;
+}
+.c_100_50{
+    width: 100%;
+    height: 50%;
+}
+.c_100_45{
+    width: 100%;
+    height: 45%;
+}
+.c_100_40{
+    width: 100%;
+    height: 40%;
+}
+.c_100_35{
+    width: 100%;
+    height: 35%;
+}
+.c_100_30{
+    width: 100%;
+    height: 30%;
+}
+.c_100_25{
+    width: 100%;
+    height: 25%;
+}
+.c_100_20{
+    width: 100%;
+    height: 20%;
+}
+.c_100_15{
+    width: 100%;
+    height: 15%;
+}
+.c_100_10{
+    width: 100%;
+    height: 10%;
+}
+.c_100_5{
+    width: 100%;
+    height: 5%;
+}
+.c_95_100{
+    width:95% ;
+    height: 100%;
+}
+.c_90_100{
+    width:90%;
+    height:100%;
+}
+.c_85_100{
+    width:85%;
+    height:100%;
+}
+.c_80_100{
+    width:80%;
+    height:100%;
+}
+.c_75_100{
+    width:75%;
+    height:100%;
+}
+.c_70_100{
+    width:70%;
+    height:100%;
+}
+.c_65_100{
+    width:65%;
+    height:100%;
+}
+.c_60_100{
+    width:60%;
+    height:100%;
+}
+.c_55_100{
+    width:55%;
+    height:100%;
+}
+.c_50_100{
+    width:50%;
+    height:100%;
+}
+.c_45_100{
+    width:45%;
+    height:100%;
+}
+.c_40_100{
+    width:40%;
+    height:100%;
+}
+.c_35_100{
+    width:35%;
+    height:100%;
+}
+.c_30_100{
+    width:30%;
+    height:100%;
+}
+.c_25_100{
+    width:25%;
+    height:100%;
+}
+.c_20_100{
+    width:20%;
+    height:100%;
+}
+.c_15_100{
+    width:15%;
+    height:100%;
+}
+.c_10_100{
+    width:10%;
+    height:100%;
+}
+.c_5_100{
+    width:5%;
+    height:100%;
+}
+/* Posiciones */
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bottom{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.top_right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.top_left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bottom_right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.bottom_left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.centerCol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightCol{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.leftCol{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.topCol{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.bottomCol{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: column;
+}
+.top_rightCol{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.top_leftCol{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bottom_rightCol{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.bottom_leftCol{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.s_around{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.s_aroundCol{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.s_between{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.s_betweenCol{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Posisiones */
+
+.float{
+    float: left;
+}
+.p_relative{
+    position: relative;
+}
